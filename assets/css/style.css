@@ -1,0 +1,129 @@
+
+body {
+	background-image: url('../images/background.jpeg');
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	letter-spacing: 2px;
+}
+
+h1 {
+	font-size: 60px;
+	color: rgb(94, 62, 4);
+}
+
+#firstscreen {
+	background-image: url('../images/mathTrivia.jpg');
+	background-repeat: no-repeat;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+
+
+.white {
+	color: #ffffff;
+}
+
+.screenBox {
+	margin: 0 auto;
+	text-align: right;
+	padding: 14%;
+	margin-top: 30%;
+	color: blue;
+}
+
+.screenBox2 {
+	margin: 0 auto;
+	text-align: center;
+	padding: 24%;
+	color: blueviolet;
+}
+
+.wrongBox {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10%;
+}
+
+label {
+	color:yellow;
+}
+
+#answerScreen {
+	display: none;
+	background-image: url('../images/mathTrivia.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 40%;
+	margin: 0 auto;
+	padding: 2%;
+	margin-top: 15%;
+	font-size: 20px;
+}
+
+#timesUp {
+	display: none;
+	background-image: url('../images/mathTrivia.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 35%;
+	margin: 0 auto;
+	padding: 10%;
+	margin-top: 5%;
+	margin-bottom: 15%;
+	font-size: 21px;
+	/* text-align: center; */
+}
+
+.up {
+	color: red;
+}
+
+.timeRemain {
+	padding: 2%;
+	color:maroon;
+}
+
+.timeRemain #time-remain {
+	font-size: 50px;
+}
+
+body .container {
+	/* background-image: url('../images/qns.jpg'); */
+	
+	height: 100%;
+	text-align: center;
+	display: none;
+	margin-bottom: 5%;
+	padding-bottom: 2%;
+	margin-top: 5%;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.questions {
+	font-size: 25px;
+	color: aquamarine;
+}
+
+.ques,
+label {
+	padding: 1%;
+}
+
+header {
+	font-size: 80px;
+	color: rgba(235, 10, 10, 0.699);
+	margin-top: 2%;
+}
+/* footer */
+footer{
+	clear: both;
+	padding: 20px;
+	font-style: bold;
+	font-size: 20px;
+	color: rgb(18, 55, 80);
+}
+
