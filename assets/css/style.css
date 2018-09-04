@@ -36,14 +36,17 @@ h1 {
 .screenBox2 {
 	margin: 0 auto;
 	text-align: center;
-	padding: 24%;
+	/* padding: 10%; */
 	color: blueviolet;
+	padding-top: 40%;
 }
 
 .wrongBox {
-	margin: 0 auto;
+	margin: 8% auto;
 	text-align: center;
-	padding: 10%;
+	/* padding: 10%; */
+	padding-top:35%;
+	
 }
 
 label {
@@ -67,7 +70,7 @@ label {
 	background-image: url('../images/mathTrivia.jpg');
 	background-position: top;
 	background-repeat: no-repeat;
-	width: 35%;
+	width: 45%;
 	margin: 0 auto;
 	padding: 10%;
 	margin-top: 5%;
@@ -105,7 +108,8 @@ body .container {
 
 .questions {
 	font-size: 25px;
-	color: aquamarine;
+	color: rgb(85, 54, 7);
+	font-weight: bold;
 }
 
 .ques,
